@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Saira+Stencil+One&family=Shadows+Into+Light&family=Sirin+Stencil&display=swap");
+
 :root {
 	--primary-color: rgb(255, 92, 92);
 	--primary-variant: #ff2d2d;
@@ -27,6 +29,7 @@ html {
 body {
 	margin: 0;
 	color: var(--on-background);
+	font-family: Shadows Into Light;
 	background-color: var(--background);
 	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='42' height='58' viewBox='0 0 42 58'%3E%3Cg fill='%232abaad' fill-opacity='0.3'%3E%3Cpath fill-rule='evenodd' d='M12 18h12v18h6v4H18V22h-6v-4zm-6-2v-4H0V0h36v6h6v36h-6v4h6v12H6v-6H0V16h6zM34 2H2v8h24v24h8V2zM6 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm8 0a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm8 0a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm8 0a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm0 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm0 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm0 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4zM2 50h32v-8H10V18H2v32zm28-6a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm0-8a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm0-8a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm0-8a2 2 0 1 0 0 4 2 2 0 0 0 0-4z'/%3E%3C/g%3E%3C/svg%3E");
 }
@@ -41,10 +44,12 @@ section {
 
 h1 {
 	font-size: 100px;
+	font-family: Saira Stencil One, sans-serif;
 	margin-bottom: 0;
 }
 
 h2 {
+	color: var(--on-background-alt);
 	font-size: 32px;
 	font-weight: normal;
 }
@@ -53,6 +58,7 @@ h2 {
 nav {
 	z-index: 10;
 	position: fixed;
+	font-family: Sirin Stencil, sans-serif;
 	font-size: 24px;
 	letter-spacing: 3px;
 	padding: 25px;
